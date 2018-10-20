@@ -1,0 +1,349 @@
+.carousel-home {
+    min-height: 50vh;
+    border-bottom: 3px solid #b20e0f;
+}
+.quem-somos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    background: #b20e0f;
+    color: #FFF;
+}
+
+.quem-somos h2 {
+    font-size: 2rem;
+    margin-bottom: 1px;
+}
+
+.quem-somos p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 35px;
+}
+
+.cursos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-height: 40vh;
+    padding-top: 20px;
+}
+
+.cursos h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    color: #b20e0f;
+}
+
+.cursos-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.curso-box {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 350px;
+    width: 450px;
+    min-height: 22vh;
+    background: #d5d5d5;
+    margin: 10px;
+}
+
+.img-curso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 4;
+    background: #b20e0f;
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+    font-size: 5rem;
+    color: #FFF;
+    padding: 20px;
+}
+
+.img-curso i {
+    margin-right: 50px;
+}
+
+.curso-textos {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 5;
+    color: #b20e0f;
+}
+
+.curso-titulo{
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.curso-sub {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.metodologia {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 40vh;
+    padding-left: 5%;
+}
+
+.metodologia-textos {
+    display: flex;
+    flex-grow: 4;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.metodologia-textos h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    align-self: flex-start;
+    text-align: left;
+    color: #b20e0f;
+}
+.metodologia-textos p {
+    max-width: 900px;
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #555;
+}
+
+.metodologia-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 6;
+}
+
+.futuro {
+    display: flex;
+    flex-flow: row wrap;
+    background: #b20e0f;
+    background-image: url('../assets/imgs/textura.png');
+    background-repeat: repeat;
+    min-height: 35vh;
+}
+
+
+
+.futuro div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-grow: 5;
+    padding: 20px;
+}
+
+.futuro img {
+    align-self: center;
+    max-width: 100%;
+
+}
+
+.futuro p {
+    color: #fff;
+    text-align: left;
+}
+.futuro h2 {
+    font-size: 1.8rem;
+}
+.futuro span {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.futuro button {
+    min-width: 270px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.comunidade {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 50vh;
+}
+
+.comunidade h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.comunidade-boxs {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.comuni-box {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex-grow: 5;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+}
+
+
+.comunidade-boxs img {
+    width: 280px;
+    clip-path: circle(50% at 50% 50%);
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.title-4 {
+    padding: 5%;
+    text-align: center;
+    color:#444;
+}
+
+.title-4 h2 {
+    font-size: 2rem;
+}
+.video-container {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 40vh;
+}
+
+.video-box  {
+    flex-grow: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-box video {
+    max-width: 80%;
+    margin: 20px;
+    background: #555;
+    height: 35vh; 
+}
+
+.video-texto {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 5;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.3rem;
+    text-align: left;
+    
+}
+
+.video-texto p {
+    max-width: 800px;
+    color: #444;
+}
+
+.simples-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    min-height: 25vh;
+}
+
+.simple-box{
+    min-width: 250px;
+    max-width: 300px;
+    flex-grow: 2;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.simple-box i {
+    font-size: 4rem;
+    color: #b20e0f;
+}
+
+.simple-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .cursos h2 {
+        font-size: 1.5rem;
+    }
+    .curso-titulo{
+        font-size: 0.8rem;
+        letter-spacing: 5px;
+        font-weight: 600;
+        margin: 5px;
+    }
+    
+    .curso-sub {
+        font-size: 0.6rem;
+        margin: 5px;
+    }
+
+    .title-4 h2{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+
+    .metodologia-textos {
+        order: 1;
+    }
+
+    .metodologia-textos h2 {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 20px;
+    }
+    .metodologia-textos p {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .metodologia-img img {
+        order: 0;
+        width: 150px;
+        margin: 20px;
+
+    }
+
+    .futuro h2 {
+        font-size: 1.4rem;
+    }
+
+    .comunidade h2 {
+        font-size: 1.5rem;
+    }
+}
+
